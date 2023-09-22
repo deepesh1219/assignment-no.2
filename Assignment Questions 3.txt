@@ -1,0 +1,145 @@
+Assignment Questions 3
+<br>
+1. Create An Image Gallery that holds multiple images?
+<br>
+ Ans. <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Media</title>
+ </head>
+ <body style="background-color: teal;"> 
+     <h1>Image Gallery</h1>
+     <br>
+     <h1>Mercedes</h1>
+     <br>
+     <img src="Mercedes.jpg" alt=" A Photograph Of Mercedes">
+ </body>
+ </html>
+ <br>
+ <br>
+
+ 2. Use video and audio tags to display audio and video with the playback and audio controls?
+ <br>
+ Ans. <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio And Video</title>
+ </head>
+ <body>
+    <h1>Audio</h1>
+    <br>
+    <br>
+    <audio src="WIN_20230921_19_56_53_Pro.mp4" autoplay controls></audio>
+    <h2>Video</h2>
+    <video src="WIN_20230921_19_56_53_Pro.mp4" controls width="500PX" height="500PX"></video>
+ </body>
+ </html>
+ <br>
+ <br>
+ 3. Modify the previous assignment so that the audio and video play automatically as the page is loaded
+    and they shopuld play infinitely?
+    <br>
+ Ans. <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio And Video</title>
+ </head>
+ <body>
+    <h1>Audio And Video</h1>
+    <audio src="WIN_20230921_19_56_53_Pro.mp4" controls autoplay></audio>
+    <br>
+    <br>
+    <video src="WIN_20230921_19_56_53_Pro.mp4" controls autoplay width="500px" height="500px"></video>(same as 2 question)
+ </body>
+ </html>
+ <br>
+ <br>
+ 4. Use iframe to embed the physics Wallah Wikipedia page properly?
+ <br>
+ Ans. <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Frame</title>
+ </head>
+ <body>
+    <h1>I Frame</h1>
+    <iframe src="https://en.wikipedia.org/wiki/Physics_Wallah" height="500" width="600" frameborder="0"></iframe>
+    <u></u>
+
+ </body>
+ </html>
+ <br>
+ <br>
+
+ 5. Create a sign-up and sign-in form with proper validation.
+ a. Sign up form should have a first name , last name , email, password , confirm password , age , gender,
+    and Agree to terms and conditions fields at minimum (You can add any other if you like.
+ b. Sign in form should have e-mail,password fields.
+ <br>
+ Ans. <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+ </head>
+ <body>
+   <h1>A. Sign UP</h1>
+   <br>
+   <form action="Assignment.php" method="get">
+      <label for="First Name">First Name</label>
+      <input type="First Name" value="" name="" id="First Name">
+      <br>
+      <br>
+      <label for="Last Name">Last Name</label>
+      <input type="Last Name" value="" name="" id="Last Name">
+      <br>
+      <br>
+      <label for="E-Mail">E-Mail</label>
+      <input type="E-Mail" value="" name="" id="E-Mail">
+      <br>
+      <br>
+      <label for="Password">Password</label>
+      <input type="Password" value="" name="" id="Password">
+      <br>
+      <br>
+      <label for="Confirm Password">Confirm Password</label>
+      <input type="Confirm Password" value="" name="" id="Confirm Password">
+      <br>
+      <br>
+      <label for="Age">Age</label>
+      <input type="Age" value="" name="" id="Age">
+      <br>
+      <br>
+      <label for="Gender">Gender</label>
+      <input type="Gender" value="" name="" id="Gender">
+      <br>
+      <br>
+      <input type="radio" name="" id="">
+      <label for="">I Agree To Terms And Conditions</label>
+      <br>
+      <br>
+      <input type="submit" value="submit">
+   </form>
+
+<h1>B. Sign In</h1>
+<br>
+<form action="Assignment.php" method="get">
+   <label for="email">Enter Your email</label>
+   <input type="email" name="email" id="email">
+   <br>
+   <br>
+   <label for="password">Enter Your password</label>
+   <input type="password" name="password" id="password">
+</form>
+<ul></ul>
+ </body>
+ </html> 
